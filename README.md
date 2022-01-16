@@ -9,7 +9,21 @@ software.
 
 ## Logbook
 
-### 2021-01-15 18:07 UTC - ATA observation
+### 2022-01-16 17:52 UTC - ATA observation
+
+Another observation with Allen Telescope Array. At first look, the signal
+strengths are the same as in the previous observation. The frequency reference
+of EASAT-2 drifts much more than in the previous observation, making it difficult
+to get good Doppler data. The `satnogs-2022-01-16-DELFI-PQ.tle` was used for tracking.
+This TLE was taken from [here](https://community.libre.space/t/spacex-f9-transporter-3-2022-01-13-15-25utc/8776/66).
+
+This TLE has been fitted to the Doppler data of the three satellites, allowing
+changes in mean anomaly. The original TCA of 17:58:56 has changed as 17:58:58,
+17:58:49, and 17:58:55 for DELFI-PQ, EASAT-2 and HADES respectively. The result
+for EASAT-2 is doubtful, gien the low quality of the Doppler data and the fact
+that DELFI-PQ and HADES still seem to be only 3 seconds apart.
+
+### 2022-01-15 18:07 UTC - ATA observation
 
 An observation with Allen Telescope Array has been done, detecting good signals
 from EASAT-2 and a very weak signal that could be HADES. The `satnogs-2022-01-15-DELFI-PQ.tle` was used for tracking. This TLE was taken from
