@@ -9,6 +9,14 @@ software.
 
 ## Logbook
 
+### 2022-01-16 18:11 UTC - ATA observation.
+
+EASAT-2 was not detected. The HADES signal strength and stability appears as usual.
+TLE 51074 from Celestrak is a very good fit for DELFI-PQ. It is not a such a good fit
+for HADES, but perhaps that's just because of the frequency instability. Fitting in
+mean anomaly to HADES we get a 5 second change in TCA. This is the only TLE from
+Celestrak that matches either DELFI-PQ or HADES, so there are still missing TLEs.
+
 ### 2022-01-16 17:52 UTC - ATA observation
 
 Another observation with Allen Telescope Array. At first look, the signal
